@@ -6,13 +6,14 @@ namespace Basicprograms
    // 2.Leap Year Program
    // 3.Power Of Two Program
    // 4.Harmonic Number Program
+   //5.Prime Factors program
     class Program
     {
         static void Main(string[] args)
         {
             Console.WriteLine("Implementation of basic programs");
             Console.WriteLine("Enter choice to select programs: ");
-            Console.WriteLine("1.Flip Coin 2.Leap Year 3. Power Of Two 4.Harmonic Number");
+            Console.WriteLine("1.Flip Coin 2.Leap Year 3. Power Of Two 4.Harmonic Number 5.Prime Factors");
             int choice = Convert.ToInt32(Console.ReadLine());
             //Selection statement
             switch(choice)
@@ -36,6 +37,14 @@ namespace Basicprograms
                     ////Computing Harmonic Number Program
                     Console.WriteLine("Finding Nth Harmonic Number");
                     HarmonicNumber.ReadInput();
+                    break;
+                case 5:
+                    ////Computing Prime Factor Program
+                    Console.WriteLine("Finding Prime Factors");
+                    PrimeFactors.ReadInput();
+                    break;
+                default:
+                    Console.WriteLine("Enter Valid Choice!!!");
                     break;
             }
           
