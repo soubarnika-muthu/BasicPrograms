@@ -7,6 +7,9 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Console.WriteLine("Implementation of basic programs");
+            Console.WriteLine("Flip Coin Program!");
+            //Calling Flipcoin method using ReadInput...
+            FlipCoin.ReadInput();
         }
     }
 }
