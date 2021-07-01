@@ -49,6 +49,11 @@ namespace Basicprograms
                     Console.WriteLine("Finding Quotient And Reaminder!");
                     QuotientAnd_Remainder.ReadInput();
                     break;
+                case 7:
+                    
+                    Console.WriteLine("Swapping of Two Numbers!");
+                    SwapTwoNumbers.ReadInput();
+                    break;
                 default:
                     Console.WriteLine("Enter Valid Choice!!!");
                     break;
