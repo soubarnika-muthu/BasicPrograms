@@ -8,6 +8,7 @@ namespace Basicprograms
    // 4.Harmonic Number Program
    // 5.Prime Factors program
    // 6.Quotient And Reaminder Program
+   // 7.Swapping of Two Numbers
     class Program
     {
         static void Main(string[] args)
@@ -15,6 +16,7 @@ namespace Basicprograms
             Console.WriteLine("Implementation of basic programs");
             Console.WriteLine("Enter choice to select programs: ");
             Console.WriteLine("1.Flip Coin 2.Leap Year 3. Power Of Two 4.Harmonic Number 5.Prime Factors 6.Quotient And Reaminder ");
+            Console.WriteLine("7.Swapping of two numbers 8.Even or Odd");
             int choice = Convert.ToInt32(Console.ReadLine());
             //Selection statement
             switch(choice)
@@ -53,6 +55,10 @@ namespace Basicprograms
                     
                     Console.WriteLine("Swapping of Two Numbers!");
                     SwapTwoNumbers.ReadInput();
+                    break;
+                case 8:
+                    Console.WriteLine("Finding Even Or Odd!");
+                    EvenorOdd.ReadInput();
                     break;
                 default:
                     Console.WriteLine("Enter Valid Choice!!!");
