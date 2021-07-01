@@ -18,7 +18,7 @@ namespace Basicprograms
             Console.WriteLine("Implementation of basic programs");
             Console.WriteLine("Enter choice to select programs: ");
             Console.WriteLine("1.Flip Coin 2.Leap Year 3. Power Of Two 4.Harmonic Number 5.Prime Factors 6.Quotient And Reaminder ");
-            Console.WriteLine("7.Swapping of two numbers 8.Even or Odd 9.Vowel or Consonant");
+            Console.WriteLine("7.Swapping of two numbers 8.Even or Odd 9.Vowel or Consonant 10.Largest Number");
             int choice = Convert.ToInt32(Console.ReadLine());
             //Selection statement
             switch(choice)
@@ -65,6 +65,10 @@ namespace Basicprograms
                 case 9:
                     Console.WriteLine("Finding Vowel or Consonant");
                     VowelorConsonant.ReadInput();
+                    break;
+                case 10:
+                    Console.WriteLine("Finding Largest Number ");
+                    LargestNumber.ReadInput();
                     break;
                 default:
                     Console.WriteLine("Enter Valid Choice!!!");
